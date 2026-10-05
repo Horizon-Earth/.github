@@ -90,279 +90,140 @@ Projeto de Programação Orientada a Objetos · 2026.2
 
 </div>
 
+---
+
 <!-- estrutura-guia:inicio -->
-## 🏢 Estrutura de toda a organização
+## 🏢 Organização dos projetos
 
-Cada item abaixo é um repositório independente, não uma branch nem uma subpasta de um único projeto. O guia prevê login, agenda e projeto livre; os demais repositórios apoiam planejamento, identidade visual e experimentação.
+Cada projeto tem seu próprio repositório. Dentro dele, as pastas agrupam código, recursos, documentação e materiais de apoio.
 
-| Repositório | Papel |
-| --- | --- |
-| [Design](https://github.com/Horizon-Earth/Design) | Identidade visual e propostas de telas. |
-| [Agenda_Contatos](https://github.com/Horizon-Earth/Agenda_Contatos) | Agenda e persistência MySQL. |
-| [.github](https://github.com/Horizon-Earth/.github) | Perfil e documentação da organização. |
-| [LoginSystem](https://github.com/Horizon-Earth/LoginSystem) | Login em JavaFX. |
-| [SistemaLogin](https://github.com/Horizon-Earth/SistemaLogin) | Implementação de login em Swing. |
-| [HorizonSoftware](https://github.com/Horizon-Earth/HorizonSoftware) | Apresentação e planejamento geral. |
-| [demo-repository](https://github.com/Horizon-Earth/demo-repository) | Experimentos HTML e workflows. |
-| [Terra3d](https://github.com/Horizon-Earth/Terra3d) | Projeto livre: planeta 3D em JavaFX. |
+| Repositório | Responsabilidade |
+| :--- | :--- |
+| [Design](https://github.com/Horizon-Earth/Design) | 🎨 Identidade visual e estudos de telas |
+| [.github](https://github.com/Horizon-Earth/.github) | 🌎 Perfil da organização |
+| [Agenda_Contatos](https://github.com/Horizon-Earth/Agenda_Contatos) | 📒 Agenda com persistência MySQL |
+| [HorizonSoftware](https://github.com/Horizon-Earth/HorizonSoftware) | 📋 Visão geral e planejamento |
+| [SistemaLogin](https://github.com/Horizon-Earth/SistemaLogin) | 🔐 Implementação de login em Swing |
+| [Terra3d](https://github.com/Horizon-Earth/Terra3d) | 🌍 Planeta 3D — projeto livre |
+| [LoginSystem](https://github.com/Horizon-Earth/LoginSystem) | 🔐 Login e sessão em JavaFX |
+| [demo-repository](https://github.com/Horizon-Earth/demo-repository) | 🧪 Demonstrações e experimentos |
 
-### Pastas e arquivos por repositório
+### Estrutura de cada repositório
+
+Expanda um projeto para conhecer suas pastas principais. Os READMEs de cada pasta detalham o próximo nível da estrutura.
 
 <details>
-<summary><strong>Design</strong> — estrutura de arquivos</summary>
+<summary><strong>🎨 Identidade visual e estudos de telas · Design</strong></summary>
 
-| Caminho | Tipo |
-| --- | --- |
-| `FotoDePerfil/README.md` | README da pasta ou do projeto |
-| `FotoDePerfil/V.0.1.png` | Arquivo |
-| `FotoDePerfil/V.1.0.jpeg` | Arquivo |
-| `FotoDePerfil/V.2.0.png` | Arquivo |
-| `FotoDePerfil/V.Final.png` | Arquivo |
-| `LICENSE` | Arquivo |
-| `Login/README.md` | README da pasta ou do projeto |
-| `Login/V.1.0.png` | Arquivo |
-| `Login/V.2.0.png` | Arquivo |
-| `Login/V.3.0.png` | Arquivo |
-| `README.md` | README da pasta ou do projeto |
+| Pasta | Conteúdo |
+| :--- | :--- |
+| [FotoDePerfil/](https://github.com/Horizon-Earth/Design/blob/main/FotoDePerfil/README.md) | Versões da identidade visual e da imagem de perfil da organização. |
+| [Login/](https://github.com/Horizon-Earth/Design/blob/main/Login/README.md) | Propostas visuais e versões de design da tela de login. |
+
+[Ver README completo](https://github.com/Horizon-Earth/Design)
 
 </details>
 
 <details>
-<summary><strong>Agenda_Contatos</strong> — estrutura de arquivos</summary>
+<summary><strong>🌎 Perfil da organização · .github</strong></summary>
 
-| Caminho | Tipo |
-| --- | --- |
-| `.github/PULL_REQUEST_TEMPLATE.md` | Arquivo |
-| `.github/README.md` | README da pasta ou do projeto |
-| `.github/workflows/README.md` | README da pasta ou do projeto |
-| `.github/workflows/java.yml` | Arquivo |
-| `.gitignore` | Arquivo |
-| `LICENSE` | Arquivo |
-| `README.md` | README da pasta ou do projeto |
-| `database/DER/Agenda_Contatos.mwb` | Arquivo |
-| `database/DER/README.md` | README da pasta ou do projeto |
-| `database/DL/Agenda_Contatos_DL.txt` | Arquivo |
-| `database/DL/README.md` | README da pasta ou do projeto |
-| `database/README.md` | README da pasta ou do projeto |
-| `database/scripts/README.md` | README da pasta ou do projeto |
-| `database/scripts/schema.sql` | Arquivo |
-| `docs/README.md` | README da pasta ou do projeto |
-| `docs/diagrams/README.md` | README da pasta ou do projeto |
-| `docs/diagrams/arquitetura.md` | Arquivo |
-| `docs/equipe.md` | Arquivo |
-| `docs/presentations/.gitkeep` | Arquivo |
-| `docs/presentations/README.md` | README da pasta ou do projeto |
-| `docs/referencias.md` | Arquivo |
-| `docs/roadmap.md` | Arquivo |
-| `docs/ui-ux/README.md` | README da pasta ou do projeto |
-| `docs/ui-ux/mockups/.gitkeep` | Arquivo |
-| `docs/ui-ux/mockups/README.md` | README da pasta ou do projeto |
-| `docs/ui-ux/prototypes/README.md` | README da pasta ou do projeto |
-| `docs/ui-ux/prototypes/fluxo.md` | Arquivo |
-| `docs/ui-ux/wireframes/README.md` | README da pasta ou do projeto |
-| `docs/ui-ux/wireframes/agenda.md` | Arquivo |
-| `docs/uml/README.md` | README da pasta ou do projeto |
-| `docs/uml/classes.md` | Arquivo |
-| `nbactions.xml` | Arquivo |
-| `pom.xml` | Arquivo |
-| `resources/README.md` | README da pasta ou do projeto |
-| `resources/com/README.md` | README da pasta ou do projeto |
-| `resources/com/mycompany/README.md` | README da pasta ou do projeto |
-| `resources/com/mycompany/agendacontatos/README.md` | README da pasta ou do projeto |
-| `resources/com/mycompany/agendacontatos/estilo.css` | Arquivo |
-| `resources/com/mycompany/agendacontatos/images/README.md` | README da pasta ou do projeto |
-| `resources/com/mycompany/agendacontatos/images/fundo.png` | Arquivo |
-| `resources/com/mycompany/agendacontatos/primary.fxml` | Arquivo |
-| `resources/icons/.gitkeep` | Arquivo |
-| `resources/icons/README.md` | README da pasta ou do projeto |
-| `resources/images/.gitkeep` | Arquivo |
-| `resources/images/README.md` | README da pasta ou do projeto |
-| `src/README.md` | README da pasta ou do projeto |
-| `src/main/README.md` | README da pasta ou do projeto |
-| `src/main/java/README.md` | README da pasta ou do projeto |
-| `src/main/java/com/README.md` | README da pasta ou do projeto |
-| `src/main/java/com/mycompany/README.md` | README da pasta ou do projeto |
-| `src/main/java/com/mycompany/agendacontatos/Agenda.java` | Arquivo |
-| `src/main/java/com/mycompany/agendacontatos/App.java` | Arquivo |
-| `src/main/java/com/mycompany/agendacontatos/Conexao.java` | Arquivo |
-| `src/main/java/com/mycompany/agendacontatos/Contato.java` | Arquivo |
-| `src/main/java/com/mycompany/agendacontatos/ContatoDAO.java` | Arquivo |
-| `src/main/java/com/mycompany/agendacontatos/PrimaryController.java` | Arquivo |
-| `src/main/java/com/mycompany/agendacontatos/README.md` | README da pasta ou do projeto |
-| `src/test/README.md` | README da pasta ou do projeto |
-| `src/test/java/README.md` | README da pasta ou do projeto |
-| `src/test/java/com/README.md` | README da pasta ou do projeto |
-| `src/test/java/com/mycompany/README.md` | README da pasta ou do projeto |
-| `src/test/java/com/mycompany/agendacontatos/AgendaTest.java` | Arquivo |
-| `src/test/java/com/mycompany/agendacontatos/InterfaceTest.java` | Arquivo |
-| `src/test/java/com/mycompany/agendacontatos/README.md` | README da pasta ou do projeto |
-| `support/README.md` | README da pasta ou do projeto |
-| `support/documents/.gitkeep` | Arquivo |
-| `support/documents/README.md` | README da pasta ou do projeto |
-| `support/documents/guia-organizacao-github-v2.pdf` | Arquivo |
-| `support/references/.gitkeep` | Arquivo |
-| `support/references/README.md` | README da pasta ou do projeto |
-| `support/tutorials/README.md` | README da pasta ou do projeto |
-| `support/tutorials/netbeans.md` | Arquivo |
-| `support/videos/.gitkeep` | Arquivo |
-| `support/videos/README.md` | README da pasta ou do projeto |
+| Pasta | Conteúdo |
+| :--- | :--- |
+| [profile/](https://github.com/Horizon-Earth/.github/blob/main/profile/README.md) | README exibido no perfil da organização no GitHub. |
+
+[Ver README completo](https://github.com/Horizon-Earth/.github)
 
 </details>
 
 <details>
-<summary><strong>.github</strong> — estrutura de arquivos</summary>
+<summary><strong>📒 Agenda com persistência MySQL · Agenda_Contatos</strong></summary>
 
-| Caminho | Tipo |
-| --- | --- |
-| `LICENSE` | Arquivo |
-| `README.md` | README da pasta ou do projeto |
-| `profile/README.md` | README da pasta ou do projeto |
+| Pasta | Conteúdo |
+| :--- | :--- |
+| [.github/](https://github.com/Horizon-Earth/Agenda_Contatos/blob/main/.github/README.md) | Templates de colaboração e configurações do GitHub Actions. |
+| [database/](https://github.com/Horizon-Earth/Agenda_Contatos/blob/main/database/README.md) | Modelagem e estrutura do banco de dados; reúne DER, diagrama lógico e scripts SQL. |
+| [docs/](https://github.com/Horizon-Earth/Agenda_Contatos/blob/main/docs/README.md) | Documentação produzida pela equipe sobre este projeto. Materiais externos de consulta pertencem a support/. |
+| [resources/](https://github.com/Horizon-Earth/Agenda_Contatos/blob/main/resources/README.md) | Recursos consumidos pela aplicação durante sua execução, como imagens, ícones, FXML e CSS. Documentos de consulta pertencem a support/. |
+| [src/](https://github.com/Horizon-Earth/Agenda_Contatos/blob/main/src/README.md) | Código-fonte da aplicação, organizado em pacotes e classes. |
+| [support/](https://github.com/Horizon-Earth/Agenda_Contatos/blob/main/support/README.md) | Materiais externos e auxiliares usados como apoio ao desenvolvimento. |
 
-</details>
-
-<details>
-<summary><strong>LoginSystem</strong> — estrutura de arquivos</summary>
-
-| Caminho | Tipo |
-| --- | --- |
-| `.gitignore` | Arquivo |
-| `LICENSE` | Arquivo |
-| `README.md` | README da pasta ou do projeto |
-| `docs/README.md` | README da pasta ou do projeto |
-| `docs/diagrams/.gitkeep` | Arquivo |
-| `docs/diagrams/README.md` | README da pasta ou do projeto |
-| `docs/presentations/.gitkeep` | Arquivo |
-| `docs/presentations/README.md` | README da pasta ou do projeto |
-| `docs/ui-ux/README.md` | README da pasta ou do projeto |
-| `docs/ui-ux/mockups/.gitkeep` | Arquivo |
-| `docs/ui-ux/mockups/README.md` | README da pasta ou do projeto |
-| `docs/ui-ux/prototypes/.gitkeep` | Arquivo |
-| `docs/ui-ux/prototypes/README.md` | README da pasta ou do projeto |
-| `docs/ui-ux/wireframes/.gitkeep` | Arquivo |
-| `docs/ui-ux/wireframes/README.md` | README da pasta ou do projeto |
-| `docs/uml/.gitkeep` | Arquivo |
-| `docs/uml/README.md` | README da pasta ou do projeto |
-| `resources/README.md` | README da pasta ou do projeto |
-| `resources/icons/README.md` | README da pasta ou do projeto |
-| `resources/icons/cadeado.png` | Arquivo |
-| `resources/icons/pessoa.png` | Arquivo |
-| `resources/images/.gitkeep` | Arquivo |
-| `resources/images/README.md` | README da pasta ou do projeto |
-| `src/README.md` | README da pasta ou do projeto |
-| `src/loginsystem/Autenticacao.java` | Arquivo |
-| `src/loginsystem/Main.java` | Arquivo |
-| `src/loginsystem/PainelPrincipal.java` | Arquivo |
-| `src/loginsystem/README.md` | README da pasta ou do projeto |
-| `support/README.md` | README da pasta ou do projeto |
-| `support/documents/README.md` | README da pasta ou do projeto |
-| `support/references/.gitkeep` | Arquivo |
-| `support/references/README.md` | README da pasta ou do projeto |
-| `support/tutorials/.gitkeep` | Arquivo |
-| `support/tutorials/README.md` | README da pasta ou do projeto |
-| `support/videos/README.md` | README da pasta ou do projeto |
+[Ver README completo](https://github.com/Horizon-Earth/Agenda_Contatos)
 
 </details>
 
 <details>
-<summary><strong>SistemaLogin</strong> — estrutura de arquivos</summary>
+<summary><strong>📋 Visão geral e planejamento · HorizonSoftware</strong></summary>
 
-| Caminho | Tipo |
-| --- | --- |
-| `.gitignore` | Arquivo |
-| `CF/README.md` | README da pasta ou do projeto |
-| `CF/horizonlogin/HorizonLoginApp.java` | Arquivo |
-| `CF/horizonlogin/README.md` | README da pasta ou do projeto |
-| `CF/horizonlogin/controller/LoginController.java` | Arquivo |
-| `CF/horizonlogin/controller/README.md` | README da pasta ou do projeto |
-| `CF/horizonlogin/model/README.md` | README da pasta ou do projeto |
-| `CF/horizonlogin/model/Usuario.java` | Arquivo |
-| `CF/horizonlogin/view/DashboardFrame.java` | Arquivo |
-| `CF/horizonlogin/view/GithubInfoDialog.java` | Arquivo |
-| `CF/horizonlogin/view/LoginFrame.java` | Arquivo |
-| `CF/horizonlogin/view/README.md` | README da pasta ou do projeto |
-| `CF/horizonlogin/view/SplashScreen.java` | Arquivo |
-| `DESIGNER/README.md` | README da pasta ou do projeto |
-| `DESIGNER/wireframe01.png` | Arquivo |
-| `ICONS/README.md` | README da pasta ou do projeto |
-| `ICONS/horizon_icon.png` | Arquivo |
-| `LICENSE` | Arquivo |
-| `README.md` | README da pasta ou do projeto |
-| `UML/README.md` | README da pasta ou do projeto |
-| `UML/diagrama_classes_v1.1.png` | Arquivo |
+Este repositório concentra a apresentação do projeto no README e a licença na raiz.
+
+[Ver README completo](https://github.com/Horizon-Earth/HorizonSoftware)
 
 </details>
 
 <details>
-<summary><strong>HorizonSoftware</strong> — estrutura de arquivos</summary>
+<summary><strong>🔐 Implementação de login em Swing · SistemaLogin</strong></summary>
 
-| Caminho | Tipo |
-| --- | --- |
-| `LICENSE` | Arquivo |
-| `README.md` | README da pasta ou do projeto |
+| Pasta | Conteúdo |
+| :--- | :--- |
+| [CF/](https://github.com/Horizon-Earth/SistemaLogin/blob/main/CF/README.md) | Código-fonte da implementação Swing, mantido no caminho atual utilizado pelo projeto. |
+| [DESIGNER/](https://github.com/Horizon-Earth/SistemaLogin/blob/main/DESIGNER/README.md) | Wireframes e propostas visuais da implementação Swing. |
+| [ICONS/](https://github.com/Horizon-Earth/SistemaLogin/blob/main/ICONS/README.md) | Ícones da implementação Swing. |
+| [UML/](https://github.com/Horizon-Earth/SistemaLogin/blob/main/UML/README.md) | Diagramas UML da implementação Swing. |
 
-</details>
-
-<details>
-<summary><strong>demo-repository</strong> — estrutura de arquivos</summary>
-
-| Caminho | Tipo |
-| --- | --- |
-| `.github/README.md` | README da pasta ou do projeto |
-| `.github/workflows/README.md` | README da pasta ou do projeto |
-| `.github/workflows/auto-assign.yml` | Arquivo |
-| `.github/workflows/proof-html.yml` | Arquivo |
-| `LICENSE` | Arquivo |
-| `README.md` | README da pasta ou do projeto |
-| `index.html` | Arquivo |
-| `package.json` | Arquivo |
+[Ver README completo](https://github.com/Horizon-Earth/SistemaLogin)
 
 </details>
 
 <details>
-<summary><strong>Terra3d</strong> — estrutura de arquivos</summary>
+<summary><strong>🌍 Planeta 3D — projeto livre · Terra3d</strong></summary>
 
-| Caminho | Tipo |
-| --- | --- |
-| `.github/README.md` | README da pasta ou do projeto |
-| `.github/workflows/README.md` | README da pasta ou do projeto |
-| `.github/workflows/java.yml` | Arquivo |
-| `.gitignore` | Arquivo |
-| `LICENSE` | Arquivo |
-| `README.md` | README da pasta ou do projeto |
-| `database/DER/README.md` | README da pasta ou do projeto |
-| `database/DL/README.md` | README da pasta ou do projeto |
-| `database/README.md` | README da pasta ou do projeto |
-| `database/scripts/README.md` | README da pasta ou do projeto |
-| `docs/README.md` | README da pasta ou do projeto |
-| `docs/diagrams/README.md` | README da pasta ou do projeto |
-| `docs/presentations/README.md` | README da pasta ou do projeto |
-| `docs/ui-ux/README.md` | README da pasta ou do projeto |
-| `docs/ui-ux/mockups/README.md` | README da pasta ou do projeto |
-| `docs/ui-ux/prototypes/README.md` | README da pasta ou do projeto |
-| `docs/ui-ux/wireframes/README.md` | README da pasta ou do projeto |
-| `docs/uml/README.md` | README da pasta ou do projeto |
-| `pom.xml` | Arquivo |
-| `resources/README.md` | README da pasta ou do projeto |
-| `resources/earth_specular.png` | Arquivo |
-| `resources/earth_texture.jpg` | Arquivo |
-| `resources/icons/README.md` | README da pasta ou do projeto |
-| `resources/images/README.md` | README da pasta ou do projeto |
-| `resources/stars.jpg` | Arquivo |
-| `src/README.md` | README da pasta ou do projeto |
-| `src/main/README.md` | README da pasta ou do projeto |
-| `src/main/java/README.md` | README da pasta ou do projeto |
-| `src/main/java/br/README.md` | README da pasta ou do projeto |
-| `src/main/java/br/edu/README.md` | README da pasta ou do projeto |
-| `src/main/java/br/edu/principal/Main.java` | Arquivo |
-| `src/main/java/br/edu/principal/README.md` | README da pasta ou do projeto |
-| `support/README.md` | README da pasta ou do projeto |
-| `support/documents/README.md` | README da pasta ou do projeto |
-| `support/references/README.md` | README da pasta ou do projeto |
-| `support/tutorials/README.md` | README da pasta ou do projeto |
-| `support/videos/README.md` | README da pasta ou do projeto |
+| Pasta | Conteúdo |
+| :--- | :--- |
+| [.github/](https://github.com/Horizon-Earth/Terra3d/blob/main/.github/README.md) | Templates de colaboração e configurações do GitHub Actions. |
+| [database/](https://github.com/Horizon-Earth/Terra3d/blob/main/database/README.md) | Modelagem e estrutura do banco de dados; reúne DER, diagrama lógico e scripts SQL. |
+| [docs/](https://github.com/Horizon-Earth/Terra3d/blob/main/docs/README.md) | Documentação produzida pela equipe sobre este projeto. Materiais externos de consulta pertencem a support/. |
+| [resources/](https://github.com/Horizon-Earth/Terra3d/blob/main/resources/README.md) | Recursos consumidos pela aplicação durante sua execução, como imagens, ícones, FXML e CSS. Documentos de consulta pertencem a support/. |
+| [src/](https://github.com/Horizon-Earth/Terra3d/blob/main/src/README.md) | Código-fonte da aplicação, organizado em pacotes e classes. |
+| [support/](https://github.com/Horizon-Earth/Terra3d/blob/main/support/README.md) | Materiais externos e auxiliares usados como apoio ao desenvolvimento. |
+
+[Ver README completo](https://github.com/Horizon-Earth/Terra3d)
 
 </details>
 
-As pastas reservadas têm seu estado explicado no respectivo README. O guia permite omitir recursos não utilizados. JavaFX é a tecnologia atual do planeta, da agenda e do LoginSystem; SistemaLogin contém a implementação Swing. A estrutura documentada não altera esses requisitos tecnológicos da disciplina.
+<details>
+<summary><strong>🔐 Login e sessão em JavaFX · LoginSystem</strong></summary>
 
+| Pasta | Conteúdo |
+| :--- | :--- |
+| [docs/](https://github.com/Horizon-Earth/LoginSystem/blob/main/docs/README.md) | Documentação produzida pela equipe sobre este projeto. Materiais externos de consulta pertencem a support/. |
+| [resources/](https://github.com/Horizon-Earth/LoginSystem/blob/main/resources/README.md) | Recursos consumidos pela aplicação durante sua execução, como imagens, ícones, FXML e CSS. Documentos de consulta pertencem a support/. |
+| [src/](https://github.com/Horizon-Earth/LoginSystem/blob/main/src/README.md) | Código-fonte da aplicação, organizado em pacotes e classes. |
+| [support/](https://github.com/Horizon-Earth/LoginSystem/blob/main/support/README.md) | Materiais externos e auxiliares usados como apoio ao desenvolvimento. |
+
+[Ver README completo](https://github.com/Horizon-Earth/LoginSystem)
+
+</details>
+
+<details>
+<summary><strong>🧪 Demonstrações e experimentos · demo-repository</strong></summary>
+
+| Pasta | Conteúdo |
+| :--- | :--- |
+| [.github/](https://github.com/Horizon-Earth/demo-repository/blob/main/.github/README.md) | Templates de colaboração e configurações do GitHub Actions. |
+
+[Ver README completo](https://github.com/Horizon-Earth/demo-repository)
+
+</details>
+
+### Padrão do guia
+
+| Pasta | Responsabilidade |
+| :--- | :--- |
+| 💻 `src/` | Código-fonte da aplicação, organizado em pacotes e classes. |
+| 🎨 `resources/` | Recursos consumidos pela aplicação durante sua execução, como imagens, ícones, FXML e CSS. Documentos de consulta pertencem a support/. |
+| 🗄️ `database/` | Modelagem e estrutura do banco de dados; reúne DER, diagrama lógico e scripts SQL. |
+| 📚 `docs/` | Documentação produzida pela equipe sobre este projeto. Materiais externos de consulta pertencem a support/. |
+| 🧰 `support/` | Materiais externos e auxiliares usados como apoio ao desenvolvimento. |
+
+A estrutura é adaptada ao conteúdo de cada repositório. As pastas reservadas explicam o material esperado e por que ele ainda não foi adicionado.
 <!-- estrutura-guia:fim -->
